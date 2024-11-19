@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Terror</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="directions">
+            <button id="norte" onclick="chooseDirection('norte')">Norte</button>
+        </div>
+
+        <div id="center">
+            <p id="description">Você acordou em uma floresta.</p>
+        </div>
+
+        <div id="directions">
+            <button id="oeste" onclick="chooseDirection('oeste')">Oeste</button>
+            <button id="leste" onclick="chooseDirection('leste')">Leste</button>
+        </div>
+
+        <div id="directions">
+            <button id="sul" onclick="chooseDirection('sul')">Sul</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
